@@ -39,38 +39,30 @@ function about() {
             </section>
 
             <section className="text-gray-600 body-font">
-                <div className="max-w-7xl px-5 py-5 mx-auto">
+                <div className="max-w-7xl px-5 py-14 mx-auto">
 
                     <div className="flex flex-wrap -m-4 text-center">
-                        <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+                        <div className="p-4 md:w-1/3 sm:w-1/2 w-full">
                             <div className="border-2 border-gray-200 px-4 py-6 rounded-lg bg-gray-50">
                                 <CodeIcon className="w-12 h-12 text-red-500 mb-3 inline-block" />
                                 <h2 className="font-heading font-light text-2xl text-gray-900">Python Developer</h2>
                                 <p className="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aspernatur sunt, iste dolorem dolores iusto quos, quasi nemo laborum dolore laboriosam accusantium? Architecto corrupti dolore dolores autem, eligendi illo cumque?</p>
                             </div>
                         </div>
-                        <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+                        <div className="p-4 md:w-1/3 sm:w-1/2 w-full">
                             <div className="border-2 border-gray-200 px-4 py-6 rounded-lg bg-gray-50">
                                 <CodeIcon className="w-12 h-12 text-red-500 mb-3 inline-block" />
                                 <h2 className="font-heading font-light text-2xl text-gray-900">Python Developer</h2>
                                 <p className="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aspernatur sunt, iste dolorem dolores iusto quos, quasi nemo laborum dolore laboriosam accusantium? Architecto corrupti dolore dolores autem, eligendi illo cumque?</p>
                             </div>
                         </div>
-                        <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+                        <div className="p-4 md:w-1/3 sm:w-1/2 w-full">
                             <div className="border-2 border-gray-200 px-4 py-6 rounded-lg bg-gray-50">
                                 <CodeIcon className="w-12 h-12 text-red-500 mb-3 inline-block" />
                                 <h2 className="font-heading font-light text-2xl text-gray-900">Python Developer</h2>
                                 <p className="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aspernatur sunt, iste dolorem dolores iusto quos, quasi nemo laborum dolore laboriosam accusantium? Architecto corrupti dolore dolores autem, eligendi illo cumque?</p>
                             </div>
                         </div>
-                        <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                            <div className="border-2 border-gray-200 px-4 py-6 rounded-lg bg-gray-50">
-                                <CodeIcon className="w-12 h-12 text-red-500 mb-3 inline-block" />
-                                <h2 className="font-heading font-light text-2xl text-gray-900">Python Developer</h2>
-                                <p className="leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aspernatur sunt, iste dolorem dolores iusto quos, quasi nemo laborum dolore laboriosam accusantium? Architecto corrupti dolore dolores autem, eligendi illo cumque?</p>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </section>
@@ -194,7 +186,7 @@ function about() {
                     </div>
                 </div>
             </section> */}
-            <section className="text-gray-600 body-font">
+            <section className="text-gray-600 bg-gray-50 body-font">
                 <div className="max-w-7xl px-5 py-24 mx-auto flex items-center  flex-col">
                     <div className="flex flex-col text-center w-full mb-20">
 
@@ -202,7 +194,7 @@ function about() {
                         <h1 className="sm:text-3xl text-2xl font-heading title-font text-gray-900">Questions you may Ask?</h1>
                     </div>
                     <div className="w-full p-2 mx-auto bg-white rounded-2xl">
-                        {/* <Disclosure>
+                        <Disclosure>
                             {({ open }) => (
                                 <>
                                     <Disclosure.Button className="flex justify-between items-center w-full px-4 py-2 text-lg font-medium text-left text-red-500 bg-red-50 rounded-lg hover:bg-red-100 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
@@ -234,7 +226,7 @@ function about() {
                                     </Disclosure.Panel>
                                 </>
                             )}
-                        </Disclosure> */}
+                        </Disclosure>
                     </div>
                 </div>
             </section>

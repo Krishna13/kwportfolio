@@ -180,7 +180,7 @@ export default function Home() {
             </div>
             <div className="p-4 md:w-1/2 w-full">
               <div className="h-full shadow-lg bg-white p-8 rounded">
-              <PencilAltIcon className="w-5 h-5" />
+                <PencilAltIcon className="w-5 h-5" />
                 <p className="leading-relaxed mb-6">Kaustubh is young but extremely knowledgeable. I am very happy with my sessions so far and definitely paying for the next ones right now. Cannot wait to be a professional programmer!</p>
                 <a className="inline-flex items-center">
                   <img alt="testimonial" src="/test1.png" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" />
@@ -402,7 +402,12 @@ export default function Home() {
 
               <div className="flex mt-5">
                 <span className="title-font font-medium text-2xl text-gray-900">Starting at $15.00 Only</span>
-                <a href="https://www.fiverr.com/kkwankhede/teach-you-python-from-beginners-to-advance" className="flex ml-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded">Get Started</a>
+                {/* <a href="https://www.fiverr.com/kkwankhede/teach-you-python-from-beginners-to-advance" className="flex ml-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded">Get Started</a> */}
+                <Link href="https://www.fiverr.com/kkwankhede/teach-you-python-from-beginners-to-advance"><a className="inline-flex ml-auto items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-red-500 hover:bg-red-600"
+                >
+                  Get Started Right Now
+                </a>
+                </Link>
 
               </div>
             </div>

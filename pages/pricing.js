@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import {BadgeCheckIcon, ArrowRightIcon} from '@heroicons/react/outline'
 function pricing() {
     return (
         <>
@@ -34,7 +35,7 @@ function pricing() {
                     </div>
                 </div>
             </section>
-            {/* <section class="text-gray-600 body-font">
+            <section class="text-gray-600 body-font">
                 <div class="max-w-7xl px-5 py-24 mx-auto flex flex-wrap">
                     <div class="flex flex-wrap w-full">
                         <div class="lg:w-1/2 md:w-1/2 md:pr-10 md:py-6">
@@ -152,8 +153,8 @@ function pricing() {
                         </div>
                     </div>
                 </div>
-            </section> */}
-            {/* <section id="pricing" className="text-gray-600 bg-gray-50 body-font overflow-hidden">
+            </section>
+            <section id="pricing" className="text-gray-600 bg-gray-50 body-font overflow-hidden">
         <div className="container px-5 py-16 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
 
@@ -311,7 +312,7 @@ function pricing() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
 
 

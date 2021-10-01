@@ -111,16 +111,16 @@ export default function Example() {
             <Link href="/"><a className="text-base font-medium text-gray-500 hover:text-gray-900">
               Home
             </a></Link>
-            <Link href="/#about"><a className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <Link href="/about"><a className="text-base font-medium text-gray-500 hover:text-gray-900">
               About
             </a></Link>
             <Link href="/#services"><a className="text-base font-medium text-gray-500 hover:text-gray-900">
               Services
             </a></Link>
-            {/* <Link href="/courses"><a className="text-base font-medium text-gray-500 hover:text-gray-900">
+            <Link href="/courses"><a className="text-base font-medium text-gray-500 hover:text-gray-900">
               Courses
-            </a></Link> */}
-            <Link href="/#pricing"><a className="text-base font-medium text-gray-500 hover:text-gray-900">
+            </a></Link>
+            <Link href="/pricing"><a className="text-base font-medium text-gray-500 hover:text-gray-900">
               Pricing
             </a></Link>
 
@@ -259,16 +259,16 @@ export default function Example() {
                   Home
                 </a></Link>
 
-                <Link href="/#about"><a className="text-base font-medium text-gray-900 hover:text-gray-700">
+                <Link href="/about"><a className="text-base font-medium text-gray-900 hover:text-gray-700">
                   About
                 </a></Link>
                 <Link href="/#services"><a className="text-base font-medium text-gray-900 hover:text-gray-700">
                   Services
                 </a></Link>
-                {/* <Link href="/courses"><a className="text-base font-medium text-gray-900 hover:text-gray-700">
+                <Link href="/courses"><a className="text-base font-medium text-gray-900 hover:text-gray-700">
                   Courses
-                </a></Link> */}
-                <Link href="/#pricing"><a className="text-base font-medium text-gray-900 hover:text-gray-700">
+                </a></Link>
+                <Link href="/pricing"><a className="text-base font-medium text-gray-900 hover:text-gray-700">
                   Pricing
                 </a></Link>
                 {/* {resources.map((item) => (
