@@ -199,7 +199,13 @@ export default function Home() {
               </div>
             </div>
           </div>
-
+          <div className="flex justify-center items-center">
+            <Link href="/testimonials"><a className="px-4 py-2 my-8 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-red-500 hover:bg-red-600"
+            >
+              Learn More
+            </a>
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -362,6 +368,13 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <Link href="/projects"><a className="px-4 py-2 my-8 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-red-500 hover:bg-red-600"
+            >
+              Learn More
+            </a>
+            </Link>
           </div>
         </div>
       </section>

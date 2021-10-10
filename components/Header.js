@@ -114,8 +114,11 @@ export default function Example() {
             <Link href="/about"><a className="text-base font-medium text-gray-500 hover:text-gray-900">
               About
             </a></Link>
-            <Link href="/#services"><a className="text-base font-medium text-gray-500 hover:text-gray-900">
-              Services
+            <Link href="/projects"><a className="text-base font-medium text-gray-500 hover:text-gray-900">
+              Projects
+            </a></Link>
+            <Link href="/testimonials"><a className="text-base font-medium text-gray-500 hover:text-gray-900">
+              Testimonials
             </a></Link>
             <Link href="/courses"><a className="text-base font-medium text-gray-500 hover:text-gray-900">
               Courses
@@ -258,12 +261,14 @@ export default function Example() {
                 <Link href="/"><a className="text-base font-medium text-gray-900 hover:text-gray-700">
                   Home
                 </a></Link>
-
                 <Link href="/about"><a className="text-base font-medium text-gray-900 hover:text-gray-700">
                   About
                 </a></Link>
-                <Link href="/#services"><a className="text-base font-medium text-gray-900 hover:text-gray-700">
-                  Services
+                <Link href="/projects"><a className="text-base font-medium text-gray-900 hover:text-gray-700">
+                  Projects
+                </a></Link>
+                <Link href="/testimonials"><a className="text-base font-medium text-gray-900 hover:text-gray-700">
+                  Testimonials
                 </a></Link>
                 <Link href="/courses"><a className="text-base font-medium text-gray-900 hover:text-gray-700">
                   Courses
